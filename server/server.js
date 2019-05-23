@@ -55,7 +55,7 @@ const mediasoupWorkers = [];
 // @type {Number}
 let nextMediasoupWorkerIdx = 0;
 
-this.run();
+run();
 
 async function run()
 {
