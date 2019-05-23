@@ -17,7 +17,7 @@ module.exports =
 	// Signaling settings.
 	https :
 	{
-		listenIp   : '192.168.2.198',
+		listenIp   : '0.0.0.0',
 		listenPort : 4443, // NOTE: Don't change it (client app assumes 4443).
 		tls        :
 		{
@@ -102,7 +102,7 @@ module.exports =
 		{
 			listenIps :
 			[
-				{ ip: '192.168.2.198', announcedIp: null }
+				{ ip: '1.2.3.4', announcedIp: null }
 			],
 			maxIncomingBitrate              : 1500000,
 			initialAvailableOutgoingBitrate : 1000000
